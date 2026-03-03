@@ -107,46 +107,6 @@
 
     </div>
     </section>
-    <section id="pricing" class="max-w-7xl mx-auto">
-        <div class="text-center mb-16">
-            <h2 class="text-5xl font-extrabold mb-8 text-white">Select Your Plan</h2>
-            <div class="flex justify-center gap-4 mb-12">
-                <button id="btn-monthly" onclick="switchBilling('monthly')" class="bg-blue-600 px-8 py-2 rounded-full font-bold">Monthly</button>
-                <button id="btn-lifetime" onclick="switchBilling('lifetime')" class="bg-gray-800 px-8 py-2 rounded-full text-gray-400 font-bold">Lifetime</button>
-            </div>
-        </div>
-
-        <div class="grid md:grid-cols-3 gap-10">
-            <div class="glass p-10 rounded-3xl flex flex-col justify-between">
-                <div>
-                    <h3 class="text-gray-400 font-bold">BASIC</h3>
-                    <div class="my-6 text-5xl font-extrabold">$<span class="price" data-monthly="19" data-lifetime="199">19</span><span class="duration text-sm text-gray-500">/mo</span></div>
-                    <ul class="space-y-3 text-gray-400 text-sm mb-8"><li>✓ 3 Forex Assets</li><li>✓ Live Analysis</li></ul>
-                </div>
-                <button onclick="openPayment('BASIC')" class="w-full bg-gray-800 py-3 rounded-xl font-bold">Get Started</button>
-            </div>
-
-            <div class="glass p-10 rounded-3xl border-blue-500 relative scale-105">
-                <div class="absolute -top-5 left-1/2 -translate-x-1/2 bg-blue-600 px-6 py-1 rounded-full text-xs font-bold">POPULAR</div>
-                <div>
-                    <h3 class="text-blue-400 font-bold">PRO</h3>
-                    <div class="my-6 text-5xl font-extrabold">$<span class="price" data-monthly="49" data-lifetime="499">49</span><span class="duration text-sm text-gray-500">/mo</span></div>
-                    <ul class="space-y-3 text-gray-300 text-sm mb-8"><li>✓ 12 Assets</li><li>✓ AI Market Engine</li><li>✓ Signal Sync</li></ul>
-                </div>
-                <button onclick="openPayment('PRO')" class="w-full hero-btn py-4 rounded-xl font-bold">Upgrade Now</button>
-            </div>
-
-            <div class="glass p-10 rounded-3xl flex flex-col justify-between">
-                <div>
-                    <h3 class="text-gray-400 font-bold">PREMIUM</h3>
-                    <div class="my-6 text-5xl font-extrabold">$<span class="price" data-monthly="149" data-lifetime="1499">149</span><span class="duration text-sm text-gray-500">/mo</span></div>
-                    <ul class="space-y-3 text-gray-400 text-sm mb-8"><li>✓ Everything in PRO</li><li>✓ Neural Predictions</li><li>✓ 24/7 Priority</li></ul>
-                </div>
-                <button onclick="openPayment('PREMIUM')" class="w-full bg-gray-800 py-3 rounded-xl font-bold">Go Premium</button>
-            </div>
-        </div>
-    </section>
-
     <section id="payment-page" class="hidden max-w-5xl mx-auto mt-16">
         <button onclick="goBack()" class="mb-6 text-blue-400 font-bold">← Back to plans</button>
         <div class="glass p-8 rounded-3xl mb-8 flex justify-between items-center">
